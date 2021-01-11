@@ -4,7 +4,6 @@ import Cell from './Cell.js';
 export default class Matrix extends Component {
   
   genRow = (vals) => {
-    console.log(vals);
     return vals.map(val => <Cell value={val}/>) 
   }
   
